@@ -1,7 +1,5 @@
 import '@/app/ui/global.css';
 import { montserrat } from './ui/fonts';
-import { Footer } from 'react-materialize';
-
 export default function RootLayout({
   children,
 }: {
@@ -12,9 +10,9 @@ export default function RootLayout({
       <body className={`${montserrat} antialiased`}>
         {children}
         </body>
-        <Footer>
+        <footer>
           <p>footer </p>
-        </Footer>
+        </footer>
     </html>
   );
 }
